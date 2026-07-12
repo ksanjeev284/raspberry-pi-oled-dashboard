@@ -1,0 +1,16 @@
+[Unit]
+Description=Raspberry Pi OLED Dashboard (SSD1306 UI, security, animations)
+After=network.target
+
+[Service]
+Type=simple
+# Change these to your Linux user and install path
+User=pi
+WorkingDirectory=/home/pi/raspberry-pi-oled-dashboard
+ExecStart=/home/pi/raspberry-pi-oled-dashboard/venv/bin/python oled_dashboard.py
+Restart=always
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

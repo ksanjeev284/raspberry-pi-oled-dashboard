@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+*.egg
+
+# Virtualenvs / local envs
+oled-env/
+dht-env/
+rfid-env/
+
+# Media & generated animation assets (keep repo small)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.bin
+*.raw
+frames/
+frames_data.h
+animations/*
+!animations/.gitkeep
+
+# IDE / PlatformIO leftovers
+.pio/
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & runtime
+*.log
+security/
+*.partial
+
+# Local dashboard copies / backups
+*.bak
+*.bak.*
+oled_dashboard_pi.py
+_rebrand_scrub.py
+*.service.bak

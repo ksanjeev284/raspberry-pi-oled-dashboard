@@ -1,0 +1,14 @@
+# Raspberry Pi OLED Dashboard dependencies
+# python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+
+flask>=3.0
+opencv-python-headless>=4.8
+Pillow>=10.0
+numpy>=1.24
+psutil>=5.9
+yt-dlp>=2024.1
+gpiozero>=2.0
+luma.oled>=3.13
+luma.core>=2.4
+adafruit-circuitpython-dht>=4.0
+adafruit-blinka>=8.0
