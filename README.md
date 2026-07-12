@@ -55,7 +55,7 @@ A Flask web portal plus a live monochrome OLED UI: system stats, DHT22 environme
 ## Install
 
 ```bash
-git clone https://github.com/<your-user>/raspberry-pi-oled-dashboard.git
+git clone https://github.com/ksanjeev284/raspberry-pi-oled-dashboard.git
 cd raspberry-pi-oled-dashboard
 
 sudo apt update
